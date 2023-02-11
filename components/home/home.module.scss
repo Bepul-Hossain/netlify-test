@@ -1,0 +1,11 @@
+.topSection{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    justify-items: center;
+    .item{
+        background-color: rgba(255, 255, 255, 0.8);
+        padding: 20px;
+        text-align: left;
+    }
+}
